@@ -1,0 +1,164 @@
+.product-container {
+  margin: auto;
+  max-width: 1440px;
+}
+
+.product-context {
+  margin-top: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-title {
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(43, 9, 85, 1);
+  padding-bottom: 16px;
+  margin: 0;
+  position: relative;
+}
+
+.product-title::after {
+  position: absolute;
+  right: 40%;
+  bottom: 0;
+  content: '';
+  width: 97px;
+  height: 3px;
+  display: block;
+  background-color: rgba(251, 197, 8, 1);
+  margin: auto;
+}
+
+.product-paragragh {
+  margin: 0;
+  width: 650px;
+  color: rgba(54, 54, 54, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 103px;
+}
+
+.product-cards {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 290px;
+  height: 305px;
+  padding: 120px 35px 34px 31px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.card-target {
+  position: relative;
+}
+
+.target {
+  position: absolute;
+  top: -25%;
+}
+
+.card-coin {
+  position: relative;
+}
+
+.coin {
+  position: absolute;
+  top: -40%;
+}
+
+.card-credit {
+  position: relative;
+}
+
+.credit {
+  position: absolute;
+  top: -25%;
+}
+
+
+.card-title {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 15px;
+}
+
+.card-description {
+  color: rgba(54, 54, 54, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.additional {
+  margin: 100px 244px 100px;
+  display: flex;
+}
+
+.edditional-content {
+  margin-right: 130px;
+  margin-top: 40px;
+}
+
+.additional-images {
+  position: relative;
+  width: 50%;
+}
+
+.image-man {
+  display: block;
+  z-index: 2;
+}
+
+.image-blur {
+  position: absolute;
+  top: -50%;
+  right: -50%;
+}
+
+.hash {
+  color: rgba(112, 0, 255, 1);
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.additional-title {
+  color: rgba(43, 9, 85, 1);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  margin: 0;
+  width: 300px;
+  margin-bottom: 16px;
+}
+
+.additional-description {
+  color: rgba(54, 54, 54, 1);
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 24px;
+  margin: 0;
+  width: 442px;
+  margin-bottom: 30px;
+}
+
+.additional-strong-word {
+  color: rgba(112, 0, 255, 1);
+  font-weight: 700;
+}

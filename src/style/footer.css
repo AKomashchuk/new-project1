@@ -1,0 +1,82 @@
+.footer-page {
+  background-color: rgba(43, 9, 85, 1);
+  padding-top: 45px;
+}
+
+.email-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 65px 122px 50px 122px;
+  border-bottom: 1px solid rgba(174, 151, 203, 1);
+}
+
+.sign-container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.email {
+  display: flex;
+}
+
+.email-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  margin-right: 25px;
+}
+
+.input-email {
+  height: 45px;
+  width: 245px;
+  background-color: rgba(43, 9, 85, 1);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid;
+}
+
+.input-email::placeholder {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.email-button {
+  box-sizing: border-box;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(43, 9, 85, 1);
+  width: 122px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.sign-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 30px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.question-footer {
+  color: rgba(255, 255, 255, 1);
+}
+
+.email-button {
+  text-decoration: none;
+}
+
+.email-button:active {
+  color: rgba(43, 9, 85, 1);
+}

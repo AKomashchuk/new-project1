@@ -1,0 +1,24 @@
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 122px 0 122px;
+  height: 70px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.media {
+  margin-left: 25px;
+  line-height: 70px;
+}
+
+.question {
+  text-decoration: none;
+  line-height: 70px;
+  margin-left: 105px;
+}

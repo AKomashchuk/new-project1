@@ -1,0 +1,122 @@
+.form-section {
+  height: 600px;
+}
+
+.form-container {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleWithImg {
+  margin-bottom: 60px;
+}
+
+.form-title {
+  color:rgba(43, 9, 85, 1);
+  font-weight: 600px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+}
+
+.form-title::after {
+  position: absolute;
+  right: 40%;
+  bottom: -40%;
+  content: '';
+  width: 97px;
+  height: 3px;
+  display: block;
+  background-color: rgba(251, 197, 8, 1);
+  margin: auto;
+}
+
+.image {
+  display: block;
+  margin-top: 35px;
+  margin: auto;
+}
+
+.form-info {
+  display: flex;
+}
+
+.our-contacts {
+  width: 385px;
+  margin-right: 170px;
+  margin-top: 20px;
+}
+
+.information {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(54, 54, 54, 1);
+  margin: 0;
+}
+
+.information:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.information:nth-child(3) {
+  margin-bottom: 35px;
+}
+
+.strong-words-information {
+  color: rgba(112, 0, 255, 1);
+  font-weight: 700;
+}
+
+.information-email {
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+}
+
+.whatsapp-information {
+  display: flex;
+}
+
+.conections {
+  margin-left: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(43, 9, 85, 1);
+  text-decoration: underline;
+}
+
+.form-imputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-weight: 500;
+  color: rgba(112, 0, 255, 1);
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: rgba(174, 151, 203, 1);
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 15px;
+}
+
+.input::placeholder {
+  color: rgba(101, 101, 101, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
